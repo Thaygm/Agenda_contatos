@@ -29,7 +29,7 @@ header img {
 }
 
 #contatos {
-    width: 1000px;
+    width: 700px;
     min-height: 800px;
     padding: 40px;
     background: navy;
@@ -94,7 +94,7 @@ header img {
 }
 
 table {
-    width: 50%;
+    width: 80%;
 }
 
 table th {
