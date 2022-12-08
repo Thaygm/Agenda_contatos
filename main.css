@@ -1,0 +1,94 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12pt;
+    font-weight: normal;
+    color: #fff;
+    background: #f0f0f0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    height: 50px;
+    margin-right: bold 24px;
+    margin-left: 24px;
+}
+
+#main {
+    margin: 40px auto;
+    display: table;
+}
+
+#contatos {
+    width: 600px;
+    min-height: 800px;
+    padding: 40px;
+    background: navy;
+    box-shadow: 3px 3px 10px #77B1F1;
+    float: left;
+}
+
+.comandos {
+    width: 100px;
+    float: right;
+}
+
+.botoes {
+    width: 100px;
+    height: 100px;
+    padding: 10px 12px;
+    font-size: 14px;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+}
+
+#listarContatos {
+    background: #5991E3;
+}
+
+.comandos #listarContatos img {
+    height: 50px;
+    margin-right: bold;
+}
+
+#adicionarContato {
+    background: #83E359;
+}
+
+.comandos #adicionarContato img {
+    height: 50px;
+    margin-right: bold;
+}
+
+#removerContato {
+    background: #D32930;
+}
+
+.comandos #removerContato img {
+    height: 50px;
+    margin-right: bold;
+}
+
+#limparLista {
+    background: #060606;
+}
+
+.itemLista {
+    margin: 20px 0 20px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #aaa;
+}
+
+.itemLista:last-child {
+    border: 0;
+}
