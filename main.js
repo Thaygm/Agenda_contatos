@@ -47,7 +47,7 @@ function listar() {
 
 function imprimir(pessoa) {
     let contatos = document.getElementById('contatos');
-    contatos.innerHTML += "<div class='itemLista'><b>Nome</b>: " + pessoa.nome + " " + pessoa.sobrenome + "<br><b>Celular</b>: " + pessoa.celular + "<br><b>E-mail</b>: " + pessoa.email + "</div>";
+    contatos.innerHTML += "<div class='itemLista'><b>Nome</b>:" + " " + pessoa.nome + " " + pessoa.sobrenome + " " + "<b>Celular:</b> " + " " + pessoa.celular + " " + "<b>E-mail:</b> " + pessoa.email + "</div>";
 }
 
 let adicionarContato = document.getElementById('adicionarContato');
@@ -58,10 +58,10 @@ adicionarContato.onclick = function () {
     let email = prompt("Digite um endereço de e-mail");
 
     if (nome === null && sobrenome === null && celular === null && email === null) {
-        nome = "";
-        sobrenome = "";
-        celular = "";
-        email = "";
+        nome = " ";
+        sobrenome = " ";
+        celular = " ";
+        email = " ";
     }
     contatos[contatos.length] = new add(nome, sobrenome, celular, email);
     atualizarLista();
@@ -95,3 +95,4 @@ let limparLista = document.getElementById('limparLista');
 limparLista.onclick = function () {
     location.reload(true);
 }
+
